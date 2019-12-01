@@ -25,7 +25,7 @@ To run the emulator in a `docker-compose` configuration with your app, use the f
 version: "3.2"
 services:
   firestore_emulator:
-    image: mtlynch/cloud-firestore-emulator
+    image: mtlynch/firestore-emulator
     environment:
       - FIRESTORE_PROJECT_ID=dummy-project-id
       - PORT=8200
